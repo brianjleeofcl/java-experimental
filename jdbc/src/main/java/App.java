@@ -12,5 +12,9 @@ public class App {
         } else {
             log.info("connection is not maintained");
         }
+        db.insertTable("Examples");
+
+
+        db.close();
     }
 }
